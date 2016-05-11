@@ -1,4 +1,4 @@
-﻿namespace Mocks.ThingCache.Dependencies
+﻿namespace MockFramework
 {
     public class Thing
     {

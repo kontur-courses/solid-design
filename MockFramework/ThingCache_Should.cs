@@ -1,5 +1,4 @@
 using FakeItEasy;
-using Mocks.ThingCache.Dependencies;
 using NUnit.Framework;
 
 namespace MockFramework
@@ -13,6 +12,7 @@ namespace MockFramework
         [SetUp]
         public void SetUp()
         {
+            //thingService = ...
             thingCache = new ThingCache(thingService);
         }
     }

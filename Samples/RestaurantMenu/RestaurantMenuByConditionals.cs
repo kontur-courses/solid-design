@@ -30,7 +30,7 @@ namespace Samples.RestaurantMenu
                 case DishId.IceCream:
                     return DishType.Dessert;
                 default:
-                    throw new ArgumentOutOfRangeException(nameof(dishId), dishId, null);
+                    throw new ArgumentOutOfRangeException("dishId", dishId, null);
             }
         }
     }

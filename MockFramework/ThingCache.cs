@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Mocks.ThingCache.Dependencies;
 
 namespace MockFramework
 {

@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="IThingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solved\ThingCache_Should.cs" />
     <Compile Include="Thing.cs" />
     <Compile Include="ThingCache.cs" />
     <Compile Include="ThingCache_Should.cs" />
