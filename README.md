@@ -1,7 +1,7 @@
 # SOLID
 
 SOLID - акроним для 5 основных принципов проектирования. Знать и понимать их должен каждый разработчик.
-Наиболее востребованы Single Responsibility Principle, которы рассматривается в блоке [Чистый код](https://github.com/kontur-csharper/clean-code). А также Open Closed Principle и Dependency Inversion Principle, которым и посвящен этот блок.
+Наиболее востребованы Single Responsibility Principle, который рассматривается в блоке [Чистый код](https://github.com/kontur-csharper/clean-code), а также Open Closed Principle и Dependency Inversion Principle, которым и посвящен этот блок.
 
 Пройдя блок ты:
 
