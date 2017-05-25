@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIContainer", "DIContainer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{2A68FDC1-CB19-4BC7-A2BB-01401CBE4CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockFramework", "MockFramework\MockFramework.csproj", "{DF0A47D1-7D8B-4511-B997-C4C7EF4ADD29}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{5706B04C-15F1-4C39-8864-0CD3A6D04A06}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{2A68FDC1-CB19-4BC7-A2BB-01401CBE4CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A68FDC1-CB19-4BC7-A2BB-01401CBE4CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A68FDC1-CB19-4BC7-A2BB-01401CBE4CFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF0A47D1-7D8B-4511-B997-C4C7EF4ADD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF0A47D1-7D8B-4511-B997-C4C7EF4ADD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF0A47D1-7D8B-4511-B997-C4C7EF4ADD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF0A47D1-7D8B-4511-B997-C4C7EF4ADD29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5706B04C-15F1-4C39-8864-0CD3A6D04A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5706B04C-15F1-4C39-8864-0CD3A6D04A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5706B04C-15F1-4C39-8864-0CD3A6D04A06}.Release|Any CPU.ActiveCfg = Release|Any CPU

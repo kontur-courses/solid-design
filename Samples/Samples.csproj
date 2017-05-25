@@ -50,21 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recognizer\Dependencies\IDocument.cs" />
-    <Compile Include="Recognizer\Dependencies\IDocumentQualityChecker.cs" />
-    <Compile Include="Recognizer\Dependencies\IImage.cs" />
-    <Compile Include="Recognizer\Dependencies\ILog.cs" />
-    <Compile Include="Recognizer\Dependencies\IRecognizeTool.cs" />
-    <Compile Include="Recognizer\DocumentRecognizer.cs" />
-    <Compile Include="Recognizer\DocumentRecognizer_Should.cs" />
     <Compile Include="RestaurantMenu\DishId.cs" />
     <Compile Include="RestaurantMenu\DishType.cs" />
     <Compile Include="RestaurantMenu\IRestaurantMenu.cs" />
     <Compile Include="RestaurantMenu\RestaurantMenuByConditionals.cs" />
     <Compile Include="RestaurantMenu\RestaurantMenuByPolymorphism.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
