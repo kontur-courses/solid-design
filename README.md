@@ -5,7 +5,7 @@ SOLID - акроним для 5 основных принципов проект
 Наиболее востребованы Single Responsibility Principle, который рассматривается в блоке [Чистый код](https://github.com/kontur-csharper/clean-code), а также Open Closed Principle и Dependency Inversion Principle, которым и посвящен этот блок.
 
 Пройдя блок, ты познакомишься с Open Closed Principle и Dependency Injection Principle на конкретных примерах.
-После этого блока рекомендуется пройти [блок Dependency Injection Container](https://github.com/kontur-csharper/di).
+После этого блока рекомендуется пройти блок [Dependency Injection Container](https://github.com/kontur-csharper/di).
 
 
 ## Необходимые знания
