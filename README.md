@@ -15,5 +15,5 @@ SOLID — акроним для 5 основных принципов проек
 
 ## Самостоятельная подготовка
 
-Освой принципы Open Closed и Dependency Inversion из SOLID, посмотрев видеолекцию [Управление зависимостями](https://ulearn.me/Course/cs2/Vviedieniie_93d19beb-1465-430f-ac12-03f40ebd3e17) (~45 мин.)
+Освой принципы Open Closed и Dependency Inversion из SOLID, посмотрев видеолекцию [Управление зависимостями](https://ulearn.me/Course/cs2/Vviedieniie_93d19beb-1465-430f-ac12-03f40ebd3e17) без темы "Mock библиотеки" (~ 1 час)
 
