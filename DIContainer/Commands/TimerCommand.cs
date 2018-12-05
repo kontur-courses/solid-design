@@ -17,7 +17,7 @@ namespace DIContainer.Commands
             var timeout = TimeSpan.FromMilliseconds(arguments.GetInt(0));
             Console.WriteLine("Waiting for " + timeout);
             Thread.Sleep(timeout);
-			Console.WriteLine("Done!");
+            Console.WriteLine("Done!");
         }
     }
 }

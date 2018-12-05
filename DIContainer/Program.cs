@@ -7,23 +7,23 @@ namespace DIContainer
     public class Program
     {
         private readonly CommandLineArgs arguments;
-	    private readonly ICommand[] commands;
+        private readonly ICommand[] commands;
 
-	    public Program(CommandLineArgs arguments, params ICommand[] commands)
-	    {
-		    this.arguments = arguments;
-		    this.commands = commands;
-	    }
+        public Program(CommandLineArgs arguments, params ICommand[] commands)
+        {
+            this.arguments = arguments;
+            this.commands = commands;
+        }
 
-	    public static void Main(string[] args)
-		{
-			var container = new StandardKernel();
+        public static void Main(string[] args)
+        {
+            var container = new StandardKernel();
 
-			//TODO: сконфигурировать контейнер
+            //TODO: сконфигурировать контейнер
 
-			container.Get<Program>().Run();
-		}
-		
+            container.Get<Program>().Run();
+        }
+        
         public void Run()
         {
             if (arguments.Command == null)
@@ -33,7 +33,7 @@ namespace DIContainer
             }
             var command = commands.FirstOrDefault(c => c.Name.Equals(arguments.Command, StringComparison.InvariantCultureIgnoreCase));
             if (command == null)
-				Console.WriteLine("Sorry. Unknown command {0}", arguments.Command);
+                Console.WriteLine("Sorry. Unknown command {0}", arguments.Command);
             else
                 command.Execute();
         }

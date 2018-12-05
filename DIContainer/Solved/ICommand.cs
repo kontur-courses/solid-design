@@ -5,7 +5,7 @@ namespace DIContainer.Solved
 {
     public abstract class BaseCommand : ICommand
     {
-		protected BaseCommand()
+        protected BaseCommand()
         {
             Name = GetType().Name.Split(new [] { ".", "Command" }, StringSplitOptions.RemoveEmptyEntries).Last();
         }
